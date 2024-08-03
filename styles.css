@@ -10,6 +10,12 @@ body {
 header {
     margin-bottom: 30px;
 }
+.page-title {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 1em;
+  text-align: center;
+}
 
 h1 {
     color: #75ad72;
