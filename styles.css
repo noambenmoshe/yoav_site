@@ -35,6 +35,29 @@ li {
     margin-bottom: 10px;
 }
 
+.gallery-item {
+  margin-bottom: 20px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-info {
+  margin-top: 10px;
+}
+
+.gallery-date {
+  font-weight: bold;
+  color: #666;
+}
+
+.gallery-description {
+  margin-top: 5px;
+  line-height: 1.4;
+}
+
 .date {
     color: #999;
     font-size: 0.9em;
