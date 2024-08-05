@@ -30,15 +30,23 @@ h2 {
   margin-bottom: 0;
 }
 
-nav a {
-    color: #999;
-    text-decoration: none;
-}
-
 nav {
   display: flex;
   justify-content: center;
-  gap: 1000px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  gap: 40px; /* Adjust this value to increase/decrease spacing */
+}
+
+nav a {
+  color: #999;
+  text-decoration: none;
+  font-size: 18px; /* Adjust this value to change text size */
+  padding: 10px; /* Adds some padding around the text */
 }
 
 
