@@ -32,7 +32,7 @@ nav a {
 nav {
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 400px;
 }
 
 
@@ -55,8 +55,15 @@ li {
 }
 
 .gallery-image {
-  width: 70%;
-  height: auto;
+  width: 70%; /* This sets the width of the container */
+  max-width: 600px; /* This limits the maximum width of the container */
+  margin: 0 auto; /* This centers the container if it's not full width */
+}
+
+.gallery-image img {
+  width: 100%; /* This makes the image fill its container */
+  height: auto; /* This maintains the image's aspect ratio */
+  display: block; /* This removes any extra space below the image */
 }
 
 .gallery-info {
