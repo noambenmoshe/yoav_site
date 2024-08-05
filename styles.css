@@ -9,6 +9,7 @@ body {
 
 header {
     margin-bottom: 30px;
+    text-align: center;
 }
 .page-title {
   font-size: 4em;
@@ -30,7 +31,7 @@ nav a {
 nav {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
 }
 
 
