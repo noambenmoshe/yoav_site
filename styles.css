@@ -108,3 +108,21 @@ a:hover {
 .subscribe-form button:hover {
   background-color: #0056b3;
 }
+
+main {
+    padding: 2rem;
+}
+
+.social-icons {
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
