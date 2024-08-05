@@ -27,6 +27,13 @@ nav a {
     text-decoration: none;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
 h2 {
     font-size: 1.2em;
     margin-top: 0;
