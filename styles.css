@@ -163,3 +163,46 @@ main {
     text-decoration: none;
     border-radius: 3px;
 }
+
+
+.cv-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cv-row {
+  display: grid;
+  grid-template-columns: 80px 100px 1fr 150px 100px;
+  gap: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.cv-year, .cv-type, .cv-name, .cv-place, .cv-city {
+  padding: 5px;
+}
+
+.cv-year {
+  font-weight: bold;
+}
+
+.cv-type {
+  font-style: italic;
+}
+
+.cv-name {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .cv-row {
+      grid-template-columns: 1fr;
+  }
+  
+  .cv-year, .cv-type, .cv-name, .cv-place, .cv-city {
+      padding: 2px;
+  }
+}
